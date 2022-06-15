@@ -23,5 +23,6 @@ urlpatterns = [
     path('', inicio),
     path('crearpython/',crear_curso),
     
+    #urls de pryectoCoderApps
     path('coderapp/',include("ProyectoCoderApp.urls"))
 ]
