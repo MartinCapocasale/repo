@@ -35,10 +35,10 @@ def profesores(request):
     return HttpResponse("vista de profes")
 
 def estudiantes(request):
-    return HttpResponse("vista de profes")
+    return HttpResponse("vista de estudiantes")
 
 def cursos(request):
-    return HttpResponse("vista de profes")
+    return HttpResponse("vista de cursos")
 
 def entregables(request):
-    return HttpResponse("vista de profes")
+    return HttpResponse("vista de entregables")
