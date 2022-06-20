@@ -1,0 +1,21 @@
+{% extends 'ProyectoCoderApp/base.html'%}
+{%load static%}
+
+
+{% block tituloPagina %}
+Cursos - App Coder
+{%endblock%}
+
+
+{% block contenidoPagina%}
+<section class="bg-ligth py-5">
+    Los Estudiantes son:
+    <ul class="list-group">
+    {% comment %}
+        {%for curso in cursos%}
+            <li>{{curso.nombre}}[{{curso.comision}}]</li>
+        {%endfor%}
+    {% endcomment %}    
+    </ul>
+</section>
+{%endblock%}

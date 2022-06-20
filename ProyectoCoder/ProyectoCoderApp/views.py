@@ -35,7 +35,7 @@ def profesores(request):
     return render(request,"ProyectoCoderApp/profesores.html",{})
 
 def estudiantes(request):
-    return HttpResponse("vista de estudiantes")
+    return render(request,"ProyectoCoderApp/estudiantes.html",{})
 
 def cursos(request):
     #return HttpResponse("vista de cursos")
