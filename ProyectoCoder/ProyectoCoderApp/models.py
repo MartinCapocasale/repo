@@ -1,3 +1,4 @@
+from tabnanny import verbose
 from django.db import models
 
 # Create your models here.
@@ -25,6 +26,8 @@ class Profesor(models.Model):
     email = models.EmailField(blank=True, null=True) # Email - Opcional
 
     profesion = models.CharField(max_length=30)
+    class Meta:
+        verbose_name_plural = "Profesores"
 
 class Entregable(models.Model):
 
