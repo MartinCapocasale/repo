@@ -32,7 +32,7 @@ def crear_curso(request):
 
 
 def profesores(request):
-    return HttpResponse("vista de profes")
+    return render(request,"ProyectoCoderApp/profesores.html",{})
 
 def estudiantes(request):
     return HttpResponse("vista de estudiantes")
